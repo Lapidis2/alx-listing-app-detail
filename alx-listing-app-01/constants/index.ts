@@ -25,6 +25,7 @@ export const PROPERTYLISTINGSAMPLE: PROPERTYLISTINGSAMPLEProps []  = [
         name: "Entire cabin",
         image: "/assets/images/image-2.png",
         price: 62,
+
         rating: 4.76
     },
     {

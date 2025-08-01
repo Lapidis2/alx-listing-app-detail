@@ -21,6 +21,7 @@ export interface PROPERTYLISTINGSAMPLEProps {
 
 export interface PropertyProps {
   name: string;
+  description:string;
   address: {
     state: string;
     city: string;
@@ -37,3 +38,8 @@ export interface PropertyProps {
   image: string;
   discount?: string;
 }
+
+export interface Offer {
+	id: string;
+	price: number;
+  }
